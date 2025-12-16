@@ -2,7 +2,7 @@
 <img width="868" height="686" alt="image" src="https://github.com/user-attachments/assets/eb40d149-a17f-4501-acee-a479b3f2930a" />
 
 
-<h1>🌍 GIS Proof of Concept: ArcGIS + Python + Matplotlib</h1>
+<h1>🌍 PoC: ArcGIS + Python + Matplotlib</h1>
 
 <h2>1. Overview</h2>
 <p>
