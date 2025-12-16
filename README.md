@@ -1,5 +1,6 @@
 # PoCTech
-<img width="987" height="796" alt="image" src="https://github.com/user-attachments/assets/01520c28-90ca-4985-80b1-1e7f417278be" />
+<img width="868" height="686" alt="image" src="https://github.com/user-attachments/assets/eb40d149-a17f-4501-acee-a479b3f2930a" />
+
 
 <h1>🌍 GIS Proof of Concept: ArcGIS + Python + Matplotlib</h1>
 
