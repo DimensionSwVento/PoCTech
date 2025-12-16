@@ -131,54 +131,6 @@ Source: ArcGIS Living Atlas (Public)
 
 <hr>
 
-<h2>7. Code Description</h2>
 
-<h3>7.1 Connect to ArcGIS Online</h3>
-
-<pre>
-from arcgis.gis import GIS
-
-gis = GIS()  # Anonymous connection
-print("Connected as:", gis.users.me)
-</pre>
-
-<h3>7.2 Search and access a Feature Layer</h3>
-
-<pre>
-from arcgis.features import FeatureLayer
-
-layer_url = "https://services.arcgis.com/..."  # Public Feature Service URL
-feature_layer = FeatureLayer(layer_url)
-</pre>
-
-<h3>7.3 Query features and extract geometry</h3>
-
-<pre>
-features = feature_layer.query(
-    where="1=1",
-    out_fields="*",
-    return_geometry=True
-)
-
-x = [f.geometry['x'] for f in features.features]
-y = [f.geometry['y'] for f in features.features]
-</pre>
-
-<p>
-The extracted geometries represent <strong>vector point data</strong>
-(longitude and latitude).
-</p>
-
-<h3>7.4 Visualization with Matplotlib</h3>
-
-<pre>
-import matplotlib.pyplot as plt
-
-plt.scatter(x, y, c="red", marker="^")
-plt.title("Example: Wildfire Locations")
-plt.xlabel("Longitude")
-plt.ylabel("Latitude")
-plt.show()
-</pre>
 
 
